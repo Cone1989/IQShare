@@ -15,17 +15,32 @@
 		642618CE22D4B0D00058B371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 642618CD22D4B0D00058B371 /* main.m */; };
 		64F2BA590AEFA2C146F9A300 /* Pods_IQShareDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F647B157FC9ECC5FE428EE /* Pods_IQShareDemo.framework */; };
 		DB9E02D8CD2BC82431024D67 /* Pods_IQShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29FC3C5D15F8A3617432092 /* Pods_IQShare.framework */; };
-		EE8A5A1C22D58DB6008ABD9F /* IQShareMessageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A5A0B22D58DB5008ABD9F /* IQShareMessageObject.m */; };
-		EE8A5A1D22D58DB6008ABD9F /* IQShareQQ.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A5A0F22D58DB6008ABD9F /* IQShareQQ.m */; };
-		EE8A5A1E22D58DB6008ABD9F /* IQShareQZone.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A5A1022D58DB6008ABD9F /* IQShareQZone.m */; };
-		EE8A5A1F22D58DB6008ABD9F /* IQShareWeChat.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A5A1122D58DB6008ABD9F /* IQShareWeChat.m */; };
-		EE8A5A2022D58DB6008ABD9F /* IQShareTimeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A5A1622D58DB6008ABD9F /* IQShareTimeLine.m */; };
-		EE8A5A2122D58DB6008ABD9F /* IQShare.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A5A1722D58DB6008ABD9F /* IQShare.m */; };
-		EE8A5A2222D58DB6008ABD9F /* IQShareResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A5A1922D58DB6008ABD9F /* IQShareResponse.m */; };
-		EE8A5A2422D58DC8008ABD9F /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8A5A2322D58DC8008ABD9F /* TencentOpenAPI.framework */; };
-		EE8A5A2522D58F19008ABD9F /* IQShare.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE8A5A1822D58DB6008ABD9F /* IQShare.h */; };
-		EE8A5A2622D58F19008ABD9F /* IQShareResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE8A5A0D22D58DB6008ABD9F /* IQShareResponse.h */; };
-		EE8A5A2722D58F19008ABD9F /* IQShareMessageObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE8A5A0C22D58DB5008ABD9F /* IQShareMessageObject.h */; };
+		EE00F404232F600800C72266 /* IQShareResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00F3E9232F600800C72266 /* IQShareResponse.m */; };
+		EE00F405232F600800C72266 /* IQShareResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00F3E9232F600800C72266 /* IQShareResponse.m */; };
+		EE00F406232F600800C72266 /* IQShare.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00F3EA232F600800C72266 /* IQShare.m */; };
+		EE00F407232F600800C72266 /* IQShare.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00F3EA232F600800C72266 /* IQShare.m */; };
+		EE00F408232F600800C72266 /* IQShareMessageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00F3EB232F600800C72266 /* IQShareMessageObject.m */; };
+		EE00F409232F600800C72266 /* IQShareMessageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00F3EB232F600800C72266 /* IQShareMessageObject.m */; };
+		EE00F40A232F600800C72266 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EE00F3EC232F600800C72266 /* README.md */; };
+		EE00F40B232F600800C72266 /* IQShareWeChat.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00F3EE232F600800C72266 /* IQShareWeChat.m */; };
+		EE00F40C232F600800C72266 /* IQShareWeChat.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00F3EE232F600800C72266 /* IQShareWeChat.m */; };
+		EE00F40D232F600800C72266 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE00F3F3232F600800C72266 /* README.txt */; };
+		EE00F40E232F600800C72266 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00F3F5232F600800C72266 /* libWeChatSDK.a */; };
+		EE00F40F232F600800C72266 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00F3F5232F600800C72266 /* libWeChatSDK.a */; };
+		EE00F410232F600800C72266 /* IQShareTimeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00F3F7232F600800C72266 /* IQShareTimeLine.m */; };
+		EE00F411232F600800C72266 /* IQShareTimeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00F3F7232F600800C72266 /* IQShareTimeLine.m */; };
+		EE00F412232F600800C72266 /* IQShareQQ.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00F3FD232F600800C72266 /* IQShareQQ.m */; };
+		EE00F413232F600800C72266 /* IQShareQQ.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00F3FD232F600800C72266 /* IQShareQQ.m */; };
+		EE00F414232F600800C72266 /* IQShareQZone.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00F3FE232F600800C72266 /* IQShareQZone.m */; };
+		EE00F415232F600800C72266 /* IQShareQZone.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00F3FE232F600800C72266 /* IQShareQZone.m */; };
+		EE00F416232F600800C72266 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00F401232F600800C72266 /* TencentOpenAPI.framework */; };
+		EE00F417232F600800C72266 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00F401232F600800C72266 /* TencentOpenAPI.framework */; };
+		EE00F418232F600800C72266 /* WXCommonShare.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EE00F403232F600800C72266 /* WXCommonShare.podspec */; };
+		EE00F41A232F605000C72266 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00F419232F605000C72266 /* libz.tbd */; };
+		EE00F41C232F605D00C72266 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00F41B232F605D00C72266 /* libc++.tbd */; };
+		EE00F41E232F606300C72266 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00F41D232F606300C72266 /* libsqlite3.0.tbd */; };
+		EE00F420232F606900C72266 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00F41F232F606900C72266 /* SystemConfiguration.framework */; };
+		EE00F422232F607100C72266 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00F421232F607100C72266 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,9 +50,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				EE8A5A2522D58F19008ABD9F /* IQShare.h in CopyFiles */,
-				EE8A5A2622D58F19008ABD9F /* IQShareResponse.h in CopyFiles */,
-				EE8A5A2722D58F19008ABD9F /* IQShareMessageObject.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,23 +72,34 @@
 		642618CD22D4B0D00058B371 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77F647B157FC9ECC5FE428EE /* Pods_IQShareDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IQShareDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D29FC3C5D15F8A3617432092 /* Pods_IQShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IQShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE8A5A0B22D58DB5008ABD9F /* IQShareMessageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShareMessageObject.m; sourceTree = "<group>"; };
-		EE8A5A0C22D58DB5008ABD9F /* IQShareMessageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareMessageObject.h; sourceTree = "<group>"; };
-		EE8A5A0D22D58DB6008ABD9F /* IQShareResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQShareResponse.h; path = ../../../OC/JRShareComponent/JRShareComponent/IQShareResponse.h; sourceTree = "<group>"; };
-		EE8A5A0F22D58DB6008ABD9F /* IQShareQQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShareQQ.m; sourceTree = "<group>"; };
-		EE8A5A1022D58DB6008ABD9F /* IQShareQZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShareQZone.m; sourceTree = "<group>"; };
-		EE8A5A1122D58DB6008ABD9F /* IQShareWeChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShareWeChat.m; sourceTree = "<group>"; };
-		EE8A5A1222D58DB6008ABD9F /* IQShareTimeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareTimeLine.h; sourceTree = "<group>"; };
-		EE8A5A1322D58DB6008ABD9F /* IQShareQQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareQQ.h; sourceTree = "<group>"; };
-		EE8A5A1422D58DB6008ABD9F /* IQShareQZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareQZone.h; sourceTree = "<group>"; };
-		EE8A5A1522D58DB6008ABD9F /* IQShareWeChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareWeChat.h; sourceTree = "<group>"; };
-		EE8A5A1622D58DB6008ABD9F /* IQShareTimeLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShareTimeLine.m; sourceTree = "<group>"; };
-		EE8A5A1722D58DB6008ABD9F /* IQShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQShare.m; path = ../../../OC/JRShareComponent/JRShareComponent/IQShare.m; sourceTree = "<group>"; };
-		EE8A5A1822D58DB6008ABD9F /* IQShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQShare.h; path = ../../../OC/JRShareComponent/JRShareComponent/IQShare.h; sourceTree = "<group>"; };
-		EE8A5A1922D58DB6008ABD9F /* IQShareResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQShareResponse.m; path = ../../../OC/JRShareComponent/JRShareComponent/IQShareResponse.m; sourceTree = "<group>"; };
-		EE8A5A1A22D58DB6008ABD9F /* IQShareInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQShareInterface.h; path = ../../../OC/JRShareComponent/JRShareComponent/IQShareInterface.h; sourceTree = "<group>"; };
-		EE8A5A1B22D58DB6008ABD9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../OC/JRShareComponent/JRShareComponent/README.md; sourceTree = "<group>"; };
-		EE8A5A2322D58DC8008ABD9F /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		EE00F3E9232F600800C72266 /* IQShareResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShareResponse.m; sourceTree = "<group>"; };
+		EE00F3EA232F600800C72266 /* IQShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShare.m; sourceTree = "<group>"; };
+		EE00F3EB232F600800C72266 /* IQShareMessageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShareMessageObject.m; sourceTree = "<group>"; };
+		EE00F3EC232F600800C72266 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EE00F3EE232F600800C72266 /* IQShareWeChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShareWeChat.m; sourceTree = "<group>"; };
+		EE00F3EF232F600800C72266 /* IQShareTimeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareTimeLine.h; sourceTree = "<group>"; };
+		EE00F3F1232F600800C72266 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		EE00F3F2232F600800C72266 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		EE00F3F3232F600800C72266 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		EE00F3F4232F600800C72266 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		EE00F3F5232F600800C72266 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		EE00F3F6232F600800C72266 /* IQShareWeChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareWeChat.h; sourceTree = "<group>"; };
+		EE00F3F7232F600800C72266 /* IQShareTimeLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShareTimeLine.m; sourceTree = "<group>"; };
+		EE00F3F8232F600800C72266 /* IQShareResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareResponse.h; sourceTree = "<group>"; };
+		EE00F3F9232F600800C72266 /* IQShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShare.h; sourceTree = "<group>"; };
+		EE00F3FA232F600800C72266 /* IQShareInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareInterface.h; sourceTree = "<group>"; };
+		EE00F3FB232F600800C72266 /* IQShareMessageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareMessageObject.h; sourceTree = "<group>"; };
+		EE00F3FD232F600800C72266 /* IQShareQQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShareQQ.m; sourceTree = "<group>"; };
+		EE00F3FE232F600800C72266 /* IQShareQZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQShareQZone.m; sourceTree = "<group>"; };
+		EE00F3FF232F600800C72266 /* IQShareQQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareQQ.h; sourceTree = "<group>"; };
+		EE00F401232F600800C72266 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		EE00F402232F600800C72266 /* IQShareQZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQShareQZone.h; sourceTree = "<group>"; };
+		EE00F403232F600800C72266 /* WXCommonShare.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WXCommonShare.podspec; sourceTree = "<group>"; };
+		EE00F419232F605000C72266 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EE00F41B232F605D00C72266 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		EE00F41D232F606300C72266 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		EE00F41F232F606900C72266 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EE00F421232F607100C72266 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		FA1655653FAAE0627DF74F7B /* Pods-IQShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQShare.release.xcconfig"; path = "Target Support Files/Pods-IQShare/Pods-IQShare.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE8A5A2422D58DC8008ABD9F /* TencentOpenAPI.framework in Frameworks */,
+				EE00F40E232F600800C72266 /* libWeChatSDK.a in Frameworks */,
+				EE00F416232F600800C72266 /* TencentOpenAPI.framework in Frameworks */,
 				DB9E02D8CD2BC82431024D67 /* Pods_IQShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +118,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE00F422232F607100C72266 /* CoreTelephony.framework in Frameworks */,
+				EE00F420232F606900C72266 /* SystemConfiguration.framework in Frameworks */,
+				EE00F41E232F606300C72266 /* libsqlite3.0.tbd in Frameworks */,
+				EE00F41C232F605D00C72266 /* libc++.tbd in Frameworks */,
+				EE00F41A232F605000C72266 /* libz.tbd in Frameworks */,
+				EE00F40F232F600800C72266 /* libWeChatSDK.a in Frameworks */,
+				EE00F417232F600800C72266 /* TencentOpenAPI.framework in Frameworks */,
 				64F2BA590AEFA2C146F9A300 /* Pods_IQShareDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,7 +146,6 @@
 		642618A322D4B0C00058B371 = {
 			isa = PBXGroup;
 			children = (
-				642618AE22D4B0C00058B371 /* IQShare */,
 				642618BD22D4B0D00058B371 /* IQShareDemo */,
 				642618AD22D4B0C00058B371 /* Products */,
 				3C61B1896ED2633C37755021 /* Pods */,
@@ -132,25 +162,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		642618AE22D4B0C00058B371 /* IQShare */ = {
-			isa = PBXGroup;
-			children = (
-				EE8A5A2322D58DC8008ABD9F /* TencentOpenAPI.framework */,
-				EE8A5A1A22D58DB6008ABD9F /* IQShareInterface.h */,
-				EE8A5A1822D58DB6008ABD9F /* IQShare.h */,
-				EE8A5A1722D58DB6008ABD9F /* IQShare.m */,
-				EE8A5A1B22D58DB6008ABD9F /* README.md */,
-				EE8A5A0D22D58DB6008ABD9F /* IQShareResponse.h */,
-				EE8A5A1922D58DB6008ABD9F /* IQShareResponse.m */,
-				EE8A5A0E22D58DB6008ABD9F /* platform */,
-				EE8A5A0A22D58DB5008ABD9F /* msgObj */,
-			);
-			path = IQShare;
-			sourceTree = "<group>";
-		};
 		642618BD22D4B0D00058B371 /* IQShareDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EE00F3E7232F600800C72266 /* WXCommonShareComponent */,
 				642618BE22D4B0D00058B371 /* AppDelegate.h */,
 				642618BF22D4B0D00058B371 /* AppDelegate.m */,
 				642618C122D4B0D00058B371 /* ViewController.h */,
@@ -167,36 +182,85 @@
 		9FF32D8A9D150FA9C34536E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EE00F421232F607100C72266 /* CoreTelephony.framework */,
+				EE00F41F232F606900C72266 /* SystemConfiguration.framework */,
+				EE00F41D232F606300C72266 /* libsqlite3.0.tbd */,
+				EE00F41B232F605D00C72266 /* libc++.tbd */,
+				EE00F419232F605000C72266 /* libz.tbd */,
 				D29FC3C5D15F8A3617432092 /* Pods_IQShare.framework */,
 				77F647B157FC9ECC5FE428EE /* Pods_IQShareDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EE8A5A0A22D58DB5008ABD9F /* msgObj */ = {
+		EE00F3E7232F600800C72266 /* WXCommonShareComponent */ = {
 			isa = PBXGroup;
 			children = (
-				EE8A5A0C22D58DB5008ABD9F /* IQShareMessageObject.h */,
-				EE8A5A0B22D58DB5008ABD9F /* IQShareMessageObject.m */,
+				EE00F3E8232F600800C72266 /* WXCommonShare */,
+				EE00F403232F600800C72266 /* WXCommonShare.podspec */,
 			);
-			name = msgObj;
-			path = ../../../OC/JRShareComponent/JRShareComponent/msgObj;
+			path = WXCommonShareComponent;
 			sourceTree = "<group>";
 		};
-		EE8A5A0E22D58DB6008ABD9F /* platform */ = {
+		EE00F3E8232F600800C72266 /* WXCommonShare */ = {
 			isa = PBXGroup;
 			children = (
-				EE8A5A1322D58DB6008ABD9F /* IQShareQQ.h */,
-				EE8A5A0F22D58DB6008ABD9F /* IQShareQQ.m */,
-				EE8A5A1422D58DB6008ABD9F /* IQShareQZone.h */,
-				EE8A5A1022D58DB6008ABD9F /* IQShareQZone.m */,
-				EE8A5A1122D58DB6008ABD9F /* IQShareWeChat.m */,
-				EE8A5A1222D58DB6008ABD9F /* IQShareTimeLine.h */,
-				EE8A5A1522D58DB6008ABD9F /* IQShareWeChat.h */,
-				EE8A5A1622D58DB6008ABD9F /* IQShareTimeLine.m */,
+				EE00F3E9232F600800C72266 /* IQShareResponse.m */,
+				EE00F3EA232F600800C72266 /* IQShare.m */,
+				EE00F3EB232F600800C72266 /* IQShareMessageObject.m */,
+				EE00F3EC232F600800C72266 /* README.md */,
+				EE00F3ED232F600800C72266 /* wechat */,
+				EE00F3F8232F600800C72266 /* IQShareResponse.h */,
+				EE00F3F9232F600800C72266 /* IQShare.h */,
+				EE00F3FA232F600800C72266 /* IQShareInterface.h */,
+				EE00F3FB232F600800C72266 /* IQShareMessageObject.h */,
+				EE00F3FC232F600800C72266 /* qq */,
 			);
-			name = platform;
-			path = ../../../OC/JRShareComponent/JRShareComponent/platform;
+			path = WXCommonShare;
+			sourceTree = "<group>";
+		};
+		EE00F3ED232F600800C72266 /* wechat */ = {
+			isa = PBXGroup;
+			children = (
+				EE00F3EE232F600800C72266 /* IQShareWeChat.m */,
+				EE00F3EF232F600800C72266 /* IQShareTimeLine.h */,
+				EE00F3F0232F600800C72266 /* sdk */,
+				EE00F3F6232F600800C72266 /* IQShareWeChat.h */,
+				EE00F3F7232F600800C72266 /* IQShareTimeLine.m */,
+			);
+			path = wechat;
+			sourceTree = "<group>";
+		};
+		EE00F3F0232F600800C72266 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				EE00F3F1232F600800C72266 /* WXApi.h */,
+				EE00F3F2232F600800C72266 /* WXApiObject.h */,
+				EE00F3F3232F600800C72266 /* README.txt */,
+				EE00F3F4232F600800C72266 /* WechatAuthSDK.h */,
+				EE00F3F5232F600800C72266 /* libWeChatSDK.a */,
+			);
+			path = sdk;
+			sourceTree = "<group>";
+		};
+		EE00F3FC232F600800C72266 /* qq */ = {
+			isa = PBXGroup;
+			children = (
+				EE00F3FD232F600800C72266 /* IQShareQQ.m */,
+				EE00F3FE232F600800C72266 /* IQShareQZone.m */,
+				EE00F3FF232F600800C72266 /* IQShareQQ.h */,
+				EE00F400232F600800C72266 /* sdk */,
+				EE00F402232F600800C72266 /* IQShareQZone.h */,
+			);
+			path = qq;
+			sourceTree = "<group>";
+		};
+		EE00F400232F600800C72266 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				EE00F401232F600800C72266 /* TencentOpenAPI.framework */,
+			);
+			path = sdk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +345,10 @@
 			files = (
 				642618CB22D4B0D00058B371 /* LaunchScreen.storyboard in Resources */,
 				642618C822D4B0D00058B371 /* Assets.xcassets in Resources */,
+				EE00F418232F600800C72266 /* WXCommonShare.podspec in Resources */,
+				EE00F40A232F600800C72266 /* README.md in Resources */,
 				642618C622D4B0D00058B371 /* Main.storyboard in Resources */,
+				EE00F40D232F600800C72266 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,13 +406,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE8A5A1E22D58DB6008ABD9F /* IQShareQZone.m in Sources */,
-				EE8A5A2122D58DB6008ABD9F /* IQShare.m in Sources */,
-				EE8A5A1C22D58DB6008ABD9F /* IQShareMessageObject.m in Sources */,
-				EE8A5A2022D58DB6008ABD9F /* IQShareTimeLine.m in Sources */,
-				EE8A5A2222D58DB6008ABD9F /* IQShareResponse.m in Sources */,
-				EE8A5A1D22D58DB6008ABD9F /* IQShareQQ.m in Sources */,
-				EE8A5A1F22D58DB6008ABD9F /* IQShareWeChat.m in Sources */,
+				EE00F404232F600800C72266 /* IQShareResponse.m in Sources */,
+				EE00F408232F600800C72266 /* IQShareMessageObject.m in Sources */,
+				EE00F410232F600800C72266 /* IQShareTimeLine.m in Sources */,
+				EE00F412232F600800C72266 /* IQShareQQ.m in Sources */,
+				EE00F414232F600800C72266 /* IQShareQZone.m in Sources */,
+				EE00F406232F600800C72266 /* IQShare.m in Sources */,
+				EE00F40B232F600800C72266 /* IQShareWeChat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,9 +420,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE00F411232F600800C72266 /* IQShareTimeLine.m in Sources */,
+				EE00F405232F600800C72266 /* IQShareResponse.m in Sources */,
 				642618C322D4B0D00058B371 /* ViewController.m in Sources */,
+				EE00F415232F600800C72266 /* IQShareQZone.m in Sources */,
+				EE00F413232F600800C72266 /* IQShareQQ.m in Sources */,
 				642618CE22D4B0D00058B371 /* main.m in Sources */,
 				642618C022D4B0D00058B371 /* AppDelegate.m in Sources */,
+				EE00F409232F600800C72266 /* IQShareMessageObject.m in Sources */,
+				EE00F40C232F600800C72266 /* IQShareWeChat.m in Sources */,
+				EE00F407232F600800C72266 /* IQShare.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +575,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/IQShare",
+					"$(PROJECT_DIR)/IQShareDemo/WXCommonShareComponent/WXCommonShare/qq/sdk",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IQShareDemo/WXCommonShareComponent/WXCommonShare/wechat/sdk",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -517,6 +596,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/IQShare",
+					"$(PROJECT_DIR)/IQShareDemo/WXCommonShareComponent/WXCommonShare/qq/sdk",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IQShareDemo/WXCommonShareComponent/WXCommonShare/wechat/sdk",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -531,10 +615,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IQShareDemo/WXCommonShareComponent/WXCommonShare/qq/sdk",
+				);
 				INFOPLIST_FILE = IQShareDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IQShareDemo/WXCommonShareComponent/WXCommonShare/wechat/sdk",
 				);
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -552,10 +644,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IQShareDemo/WXCommonShareComponent/WXCommonShare/qq/sdk",
+				);
 				INFOPLIST_FILE = IQShareDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IQShareDemo/WXCommonShareComponent/WXCommonShare/wechat/sdk",
 				);
 				OTHER_LDFLAGS = (
 					"-all_load",

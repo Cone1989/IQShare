@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <IQShare/IQShare.h>
+#import "IQShare.h"
 
 @interface ViewController ()
 
