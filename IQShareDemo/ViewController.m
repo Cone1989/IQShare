@@ -10,7 +10,7 @@
 #import "IQShare.h"
 
 @interface ViewController ()
-
+@property (nonatomic, copy) void(^MyBlock)(void);
 @end
 
 @implementation ViewController
@@ -22,6 +22,10 @@
     [[IQShare defaultShare] shareToPlatform:IQSharePlatformQQ messageObject:txt completion:^(IQShareResponse * _Nonnull response) {
         
     }];
+    
+    self.MyBlock = ^{
+        NSLog(@"%@", self);
+    };
     // Do any additional setup after loading the view.
 }
 
