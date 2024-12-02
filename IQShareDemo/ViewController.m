@@ -26,6 +26,13 @@
     self.MyBlock = ^{
         NSLog(@"%@", self);
     };
+    
+    // 我在这里添加了注释
+    
+    self.MyBlock = ^{
+        self.MyBlock();
+    };
+    
     // Do any additional setup after loading the view.
 }
 
