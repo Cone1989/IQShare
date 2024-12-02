@@ -38,6 +38,10 @@
         self.MyBlock();
     } copy];
     
+    self.MyBlock = [^{
+        self.MyBlock();
+    } mutableCopy];
+    
     // Do any additional setup after loading the view.
 }
 
