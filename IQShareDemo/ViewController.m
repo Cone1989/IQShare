@@ -33,6 +33,11 @@
         self.MyBlock();
     };
     
+    // 测试下sonar
+    self.MyBlock = [^{
+        self.MyBlock();
+    } copy];
+    
     // Do any additional setup after loading the view.
 }
 
