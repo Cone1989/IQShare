@@ -1,9 +1,9 @@
 name: Build
 on:
   push:
-    branches: [master]
+    branches: [master] # push到哪些分支时执行脚本
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [opened, synchronize, reopened] # 对pr变更到哪些状态需要执行脚本
 jobs:
   build:
     name: Build
@@ -14,11 +14,17 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
-      - name: Install sonar-scanner and build-wrapper
+      - name: Install sonar-scanner and build-wrapper # 安装sonar-scanner和build-wrapper
         uses: sonarsource/sonarcloud-github-c-cpp@v3
       - name: Run build-wrapper
         run: |
           build-wrapper-macosx-x86 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }} xcodebuild
+      - name: Run tests to generate coverage statistics # 使用xcodebuild生成测试报告
+        run: |
+          xcodebuild test -project IQShare.xcodeproj -scheme test -enableCodeCoverage YES -derivedDataPath build
+      - name: Collect coverage info one XML report
+        run: |
+          bash xccov-to-generic.sh build/Logs/Test/*.xcresult/ > generic-coverage.xml
       - name: Run sonar-scanner
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

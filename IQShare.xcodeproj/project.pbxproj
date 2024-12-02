@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		527BC3632CFD68B3006C9B6E /* libIQShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 642618AC22D4B0C00058B371 /* libIQShare.a */; };
+		527BC36A2CFD69C1006C9B6E /* IQShareResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EE00F3F8232F600800C72266 /* IQShareResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		527BC36B2CFD69C1006C9B6E /* IQShare.h in Headers */ = {isa = PBXBuildFile; fileRef = EE00F3F9232F600800C72266 /* IQShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		527BC36C2CFD69C1006C9B6E /* IQShareInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = EE00F3FA232F600800C72266 /* IQShareInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		527BC36D2CFD69C1006C9B6E /* IQShareMessageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = EE00F3FB232F600800C72266 /* IQShareMessageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		642618C022D4B0D00058B371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 642618BF22D4B0D00058B371 /* AppDelegate.m */; };
 		642618C322D4B0D00058B371 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642618C222D4B0D00058B371 /* ViewController.m */; };
 		642618C622D4B0D00058B371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642618C422D4B0D00058B371 /* Main.storyboard */; };
@@ -43,6 +48,16 @@
 		EE00F422232F607100C72266 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00F421232F607100C72266 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		527BC3642CFD68B3006C9B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 642618A422D4B0C00058B371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 642618AB22D4B0C00058B371;
+			remoteInfo = IQShare;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		642618AA22D4B0C00058B371 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -59,6 +74,7 @@
 		10C60038CC67D8415B4305E5 /* Pods-IQShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQShareDemo.debug.xcconfig"; path = "Target Support Files/Pods-IQShareDemo/Pods-IQShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3662DF5C2BA4B6E511482A61 /* Pods-IQShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQShare.debug.xcconfig"; path = "Target Support Files/Pods-IQShare/Pods-IQShare.debug.xcconfig"; sourceTree = "<group>"; };
 		39DA00E234D3A4CE36B227BB /* Pods-IQShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQShareDemo.release.xcconfig"; path = "Target Support Files/Pods-IQShareDemo/Pods-IQShareDemo.release.xcconfig"; sourceTree = "<group>"; };
+		527BC35F2CFD68B3006C9B6E /* test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		642618AC22D4B0C00058B371 /* libIQShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIQShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		642618BC22D4B0CF0058B371 /* IQShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		642618BE22D4B0D00058B371 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,7 +119,19 @@
 		FA1655653FAAE0627DF74F7B /* Pods-IQShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQShare.release.xcconfig"; path = "Target Support Files/Pods-IQShare/Pods-IQShare.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		527BC3602CFD68B3006C9B6E /* test */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = test; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		527BC35C2CFD68B3006C9B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527BC3632CFD68B3006C9B6E /* libIQShare.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		642618A922D4B0C00058B371 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -147,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				642618BD22D4B0D00058B371 /* IQShareDemo */,
+				527BC3602CFD68B3006C9B6E /* test */,
 				642618AD22D4B0C00058B371 /* Products */,
 				3C61B1896ED2633C37755021 /* Pods */,
 				9FF32D8A9D150FA9C34536E2 /* Frameworks */,
@@ -158,6 +187,7 @@
 			children = (
 				642618AC22D4B0C00058B371 /* libIQShare.a */,
 				642618BC22D4B0CF0058B371 /* IQShareDemo.app */,
+				527BC35F2CFD68B3006C9B6E /* test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -265,12 +295,50 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		527BC3692CFD69A1006C9B6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527BC36B2CFD69C1006C9B6E /* IQShare.h in Headers */,
+				527BC36A2CFD69C1006C9B6E /* IQShareResponse.h in Headers */,
+				527BC36D2CFD69C1006C9B6E /* IQShareMessageObject.h in Headers */,
+				527BC36C2CFD69C1006C9B6E /* IQShareInterface.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		527BC35E2CFD68B3006C9B6E /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527BC3682CFD68B3006C9B6E /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				527BC35B2CFD68B3006C9B6E /* Sources */,
+				527BC35C2CFD68B3006C9B6E /* Frameworks */,
+				527BC35D2CFD68B3006C9B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527BC3652CFD68B3006C9B6E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				527BC3602CFD68B3006C9B6E /* test */,
+			);
+			name = test;
+			packageProductDependencies = (
+			);
+			productName = test;
+			productReference = 527BC35F2CFD68B3006C9B6E /* test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		642618AB22D4B0C00058B371 /* IQShare */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 642618B522D4B0C00058B371 /* Build configuration list for PBXNativeTarget "IQShare" */;
 			buildPhases = (
 				5C061ABC5E442B3E87918677 /* [CP] Check Pods Manifest.lock */,
+				527BC3692CFD69A1006C9B6E /* Headers */,
 				642618A822D4B0C00058B371 /* Sources */,
 				642618A922D4B0C00058B371 /* Frameworks */,
 				642618AA22D4B0C00058B371 /* CopyFiles */,
@@ -311,6 +379,9 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = lobster;
 				TargetAttributes = {
+					527BC35E2CFD68B3006C9B6E = {
+						CreatedOnToolsVersion = 16.1;
+					};
 					642618AB22D4B0C00058B371 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -334,11 +405,19 @@
 			targets = (
 				642618AB22D4B0C00058B371 /* IQShare */,
 				642618BB22D4B0CF0058B371 /* IQShareDemo */,
+				527BC35E2CFD68B3006C9B6E /* test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		527BC35D2CFD68B3006C9B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		642618BA22D4B0CF0058B371 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,6 +481,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		527BC35B2CFD68B3006C9B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		642618A822D4B0C00058B371 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -435,6 +521,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		527BC3652CFD68B3006C9B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 642618AB22D4B0C00058B371 /* IQShare */;
+			targetProxy = 527BC3642CFD68B3006C9B6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		642618C422D4B0D00058B371 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -455,6 +549,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		527BC3662CFD68B3006C9B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oversea.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		527BC3672CFD68B3006C9B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oversea.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		642618B322D4B0C00058B371 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -670,6 +806,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		527BC3682CFD68B3006C9B6E /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527BC3662CFD68B3006C9B6E /* Debug */,
+				527BC3672CFD68B3006C9B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		642618A722D4B0C00058B371 /* Build configuration list for PBXProject "IQShare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
